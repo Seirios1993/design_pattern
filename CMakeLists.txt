@@ -3,4 +3,4 @@ project(design_pattern)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(design_pattern main.cpp singleton.cpp)
+add_executable(design_pattern main.cpp singleton.cpp factory.cpp factory.h)

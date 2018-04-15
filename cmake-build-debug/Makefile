@@ -123,6 +123,33 @@ design_pattern/fast:
 	$(MAKE) -f CMakeFiles/design_pattern.dir/build.make CMakeFiles/design_pattern.dir/build
 .PHONY : design_pattern/fast
 
+factory.o: factory.cpp.o
+
+.PHONY : factory.o
+
+# target to build an object file
+factory.cpp.o:
+	$(MAKE) -f CMakeFiles/design_pattern.dir/build.make CMakeFiles/design_pattern.dir/factory.cpp.o
+.PHONY : factory.cpp.o
+
+factory.i: factory.cpp.i
+
+.PHONY : factory.i
+
+# target to preprocess a source file
+factory.cpp.i:
+	$(MAKE) -f CMakeFiles/design_pattern.dir/build.make CMakeFiles/design_pattern.dir/factory.cpp.i
+.PHONY : factory.cpp.i
+
+factory.s: factory.cpp.s
+
+.PHONY : factory.s
+
+# target to generate assembly for a file
+factory.cpp.s:
+	$(MAKE) -f CMakeFiles/design_pattern.dir/build.make CMakeFiles/design_pattern.dir/factory.cpp.s
+.PHONY : factory.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... design_pattern"
+	@echo "... factory.o"
+	@echo "... factory.i"
+	@echo "... factory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

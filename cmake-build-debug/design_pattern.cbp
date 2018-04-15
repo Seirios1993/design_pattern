@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/seirios/CLionProjects/design_pattern/factory.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/seirios/CLionProjects/design_pattern/factory.h">
+			<Option target="design_pattern"/>
+		</Unit>
 		<Unit filename="/Users/seirios/CLionProjects/design_pattern/main.cpp">
 			<Option target="design_pattern"/>
 		</Unit>

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/design_pattern.dir/main.cpp.o"
   "CMakeFiles/design_pattern.dir/singleton.cpp.o"
+  "CMakeFiles/design_pattern.dir/factory.cpp.o"
   "design_pattern.pdb"
   "design_pattern"
 )
